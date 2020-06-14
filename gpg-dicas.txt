@@ -1,0 +1,28 @@
+
+
+gpg --list-keys
+gpg --list-secret-keys
+
+
+gpg --gen-key
+
+
+Exportar a chave privada
+========================
+gpg --export --armor -o <arquivo-saida>
+
+
+Tutoriais
+=========
+http://www.estudio.gunga.com.br/tutorial-basico-de-gpg-2/
+https://www.devdungeon.com/content/gpg-tutorial
+
+
+Servidores
+==========
+http://keys.gnupg.net/
+https://pgp.mit.edu/
+
+
+
+
