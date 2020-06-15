@@ -1,0 +1,27 @@
+ATALHOS SUBLIME TEXT
+====================
+Atualizado em: 11/05/2020 10:02:07
+	
+
+-----------------------------------------------------------
+EDIÇÃO DE LINHAS
+-----------------------------------------------------------
+	Duplicar linha        => ctrl + shift + d
+	Juntar linhas         => ctrl + j
+	Inserir linha antes   => ctrl + shift + enter
+	Inserir linha depois  => ctrl + enter
+	Mover linha para cima => ctrl + shift + up
+	Mover linha para cima => ctrl + shift + down
+	Ordenar linhas        => F9
+
+
+
+-----------------------------------------------------------
+APAGAR
+-----------------------------------------------------------
+	Apagar linha                 => ctrl + shift + k
+	Apagar até o início da linha => ctrl + k, ctrl + backspace
+	Apagar o fim da linha        => ctrl + k, ctrl + k
+	Apagar palavra anterior      => ctrl + delete
+	Apagar palavra seguinte      => ctrl + backspace
+

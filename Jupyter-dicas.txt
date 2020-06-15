@@ -1,0 +1,18 @@
+INTROSPECÇÃO
+============
+
+? - Introspecção - Exibe informações básicas
+?? - Introspecção - Exibe informações detalhadas
+
+
+COMANDOS MÁGICOS
+================
+%automagic    ...
+%debug        Ativa o debugger iterativo
+%load         Importa o conteúdo de um script para uma célula
+%magic        ...
+%pwd -        Retorna o diretório atual
+%quickref     ... 
+%run          Executa um script, da mesma forma que a linha de comando
+%timeit       ...
+%matplotlib   ...

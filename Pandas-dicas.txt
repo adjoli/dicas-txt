@@ -1,0 +1,29 @@
+IMPORTAÇÃO
+==========
+import pandas as pd
+
+
+pd.set_option('display.max_columns', 80)
+pd.set_option('display.max_rows', 80)
+
+
+
+DATAFRAME
+=========
+read_table('arq.csv', sep=',', header=1, skiprows=1, skipfooter=1, index_col=0, parse_dates=True, na_values='-')
+
+df = pd.read_csv(ARQUIVO)
+
+df.shape
+df.columns
+df[coluna].value_counts()
+df.count
+df.set_index(inplace=True)
+df.reset_index(inplace=True)
+df.sort_index(inplace=True, ascending=False)
+
+df.index
+df.info()
+
+
+

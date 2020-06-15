@@ -1,0 +1,6 @@
+IMPORTAÇÃO
+==========
+import numpy as np
+
+
+
