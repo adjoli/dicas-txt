@@ -24,6 +24,3 @@ df.sort_index(inplace=True, ascending=False)
 
 df.index
 df.info()
-
-
-
