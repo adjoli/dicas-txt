@@ -1,0 +1,25 @@
+
+
+-----------------------------------------------------------
+CONFIGURAÇÕES
+-----------------------------------------------------------
+
+ctrl + shift + p     Abrir a command palette
+ctrl + ,             Configurações
+
+
+
+
+-----------------------------------------------------------
+EDIÇÃO DE LINHAS
+-----------------------------------------------------------
+ctrl + shift + d     Duplicar linhas
+ctrl + j             Concatenar linhas
+ctrl + up            Mover linha para cima
+ctrl + down          Mover linha para baixo
+
+
+
+-----------------------------------------------------------
+EDIÇÃO DE LINHAS
+-----------------------------------------------------------
