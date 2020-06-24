@@ -1,12 +1,13 @@
 
 
 -----------------------------------------------------------
-CONFIGURAÇÕES
+CONFIGURAÇÕES E EDITOR
 -----------------------------------------------------------
 
 ctrl + shift + p     Abrir a command palette
 ctrl + ,             Configurações
-
+ctrl + \             Exibe/oculta a árvore de arquivos
+F11                  Full screen
 
 
 
@@ -17,9 +18,13 @@ ctrl + shift + d     Duplicar linhas
 ctrl + j             Concatenar linhas
 ctrl + up            Mover linha para cima
 ctrl + down          Mover linha para baixo
-
+shift + alt + up     Expande o cursor múltiplo para a linha acima
+shift + alt + down   Expande o cursor múltiplo para a linha abaixo
+ctrl + del           Apaga palavra após o cursor
+ctrl + backspace     Apaga palavra antes do cursor
 
 
 -----------------------------------------------------------
-EDIÇÃO DE LINHAS
+PROJETOS
 -----------------------------------------------------------
+alt + shift + p      Alternar entre projetos
