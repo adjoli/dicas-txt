@@ -1,7 +1,10 @@
 ATALHOS SUBLIME TEXT
 ====================
-Atualizado em: 11/05/2020 10:02:07
-	
+Atualizado em:
+
+
+
+
 
 -----------------------------------------------------------
 EDIÇÃO DE LINHAS
@@ -15,7 +18,6 @@ EDIÇÃO DE LINHAS
 	Ordenar linhas        => F9
 
 
-
 -----------------------------------------------------------
 APAGAR
 -----------------------------------------------------------
@@ -24,4 +26,14 @@ APAGAR
 	Apagar o fim da linha        => ctrl + k, ctrl + k
 	Apagar palavra anterior      => ctrl + delete
 	Apagar palavra seguinte      => ctrl + backspace
+
+
+-----------------------------------------------------------
+Packate: InsertDate
+-----------------------------------------------------------
+	F5        => menu (diversos formatos de data/hora)
+	alt+F5    => prompt (formato personalizado)
+    ctrl+shift+F5 => Inserir data (formato YYYY-MM-DD)
+
+
 

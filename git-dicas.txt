@@ -49,6 +49,12 @@ git log
 >> git log --name-status
 
 
+git restore
+=======================================================
+recupera a última versão commitada de um determinado arquivo,
+descartando as alterações na staging area
+
+
 git diff
 =======================================================
 >> git diff
@@ -82,6 +88,15 @@ Remover um branch que já foi "mergeado":
 
 Remover um branch que ainda NÃO foi "mergeado":
 >> git branch -D <nome_branch>
+
+Listar todos o branchs remotos:
+>> git branch -r
+
+Força um ramo a apontar para um determinado commit:
+>> git branch -f <ramo> <commit>
+
+
+
 
 
 git rebase
@@ -180,7 +195,11 @@ Retorna arquivo à última versão do commit (desfaz modificações)
 >> git checkout -- <arquivo>
 
 Cria um novo branch e já alterna para o mesmo
->>git checkout -b <nome_branch>
+>> git checkout -b <nome_branch>
+
+Obs.: Na movimentação, pode-se usar referências relativas:
+  * git checkout HEAD^    move-se para cima 1 commit por vez
+  * git checkout HEAD~3   move-se para cima n commits
 
 
 git reset
@@ -189,8 +208,8 @@ Ignora modificações de arquivos (após add, antes do commit) - retorna para 'u
 >> git reset HEAD <arquivo>
 
 Retorna para 'unstaged'
->> git reset --soft <hash-anterior>
+>> git reset HEAD --soft <hash-anterior>
 
-git reset --mixed <hash-anterior>
+git reset HEAD --mixed <hash-anterior>
 
-git reset --hard <hash-anterior>
+git reset HEAD --hard <hash-anterior>
