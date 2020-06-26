@@ -96,7 +96,8 @@ Força um ramo a apontar para um determinado commit:
 >> git branch -f <ramo> <commit>
 
 
-
+git cherry pick
+=======================================================
 
 
 git rebase
