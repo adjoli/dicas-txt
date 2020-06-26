@@ -1,6 +1,18 @@
-==================================================
+
+===========================================================
+General
+===========================================================
+Ctrl+Shift+P, F1  Show Command Palette
+Ctrl+,            User Settings
+Ctrl+K Ctrl+S     Keyboard Shortcuts
+Ctrl+P            Quick Open, Go to File...
+Ctrl+Shift+N      New window/instance
+Ctrl+W            Close window/instance
+
+
+===========================================================
 Basic editing
-==================================================
+===========================================================
 Ctrl+X            Cut line (empty selection)
 Ctrl+C            Copy line (empty selection)
 Ctrl+Shift+K      Delete line
@@ -10,7 +22,7 @@ Ctrl+Shift+\      Jump to matching bracket
 Ctrl+]            Indent/outdent line
 Home/End          Go to beginning/end of line
 Ctrl+Home/End     Go to beginning/end of file
-Alt+Up/Down       Move line up/Down
+Alt+Up/Down       Move line up/Downm
 Ctrl+Up/Down      Scroll line up/down
 Alt+PgUp/PgDn     Scroll page up/down
 Ctrl+Shift+[/]    Fold/unfold region
@@ -22,4 +34,66 @@ Ctrl+K Ctrl+U     Remove line comment
 Ctrl+/            Toggle line comment
 Ctrl+Shift+A      Toggle block comment
 Alt+Z             Toggle word wrap
-Ctrl+Shift+L      Create cursors on each ocorrence of string
+
+
+===========================================================
+Rich languages editing
+===========================================================
+
+
+
+
+
+
+===========================================================
+Multi-cursor and selection Editor management
+===========================================================
+
+Alt+Click         Insert cursor*
+Shift+Alt+Up/Down Insert cursor above/below
+Ctrl+U            Undo last cursor operation
+Shift+Alt+I       Insert cursor at end of each line selected
+Ctrl+L            Select current line
+Ctrl+Shift+L      Select all occurrences of current selection
+Ctrl+F2           Select all occurrences of current word
+Shift+Alt+→ Expand selection
+Shift+Alt+← Shrink selection
+Shift+Alt+drag    Column (box) selection
+
+
+
+
+===========================================================
+Display
+===========================================================
+
+
+
+===========================================================
+Search and replace
+===========================================================
+
+
+
+===========================================================
+Editor management
+===========================================================
+
+
+
+
+
+===========================================================
+File management
+===========================================================
+
+
+===========================================================
+Debug
+===========================================================
+
+
+===========================================================
+Integrated terminal
+===========================================================
+
