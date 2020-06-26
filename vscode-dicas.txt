@@ -1,6 +1,6 @@
 
 ===========================================================
-General
+GENERAL
 ===========================================================
 Ctrl+Shift+P, F1  Show Command Palette
 Ctrl+,            User Settings
@@ -8,10 +8,12 @@ Ctrl+K Ctrl+S     Keyboard Shortcuts
 Ctrl+P            Quick Open, Go to File...
 Ctrl+Shift+N      New window/instance
 Ctrl+W            Close window/instance
+Ctrl+B            Toggle sidebar
+
 
 
 ===========================================================
-Basic editing
+BASIC EDITING
 ===========================================================
 Ctrl+X            Cut line (empty selection)
 Ctrl+C            Copy line (empty selection)
@@ -37,8 +39,20 @@ Alt+Z             Toggle word wrap
 
 
 ===========================================================
-Rich languages editing
+RICH LANGUAGES EDITING
 ===========================================================
+Ctrl+Space        Trigger suggestion
+Ctrl+Shift+Space  Trigger parameter hints
+Ctrl+Shift+I      Format document
+Ctrl+K Ctrl+F     Format selection
+F12               Go to Definition
+Ctrl+Shift+F10    Peek Definition
+Ctrl+K F12        Open Definition to the side
+Ctrl+.            Quick Fix
+Shift+F12         Show References
+F2                Rename Symbol
+Ctrl+K Ctrl+X     Trim trailing whitespace
+Ctrl+K M          Change file language
 
 
 
@@ -46,7 +60,7 @@ Rich languages editing
 
 
 ===========================================================
-Multi-cursor and selection Editor management
+MULTI-CURSOR AND SELECTION EDITOR MANAGEMENT
 ===========================================================
 
 Alt+Click         Insert cursor*
@@ -64,19 +78,20 @@ Shift+Alt+drag    Column (box) selection
 
 
 ===========================================================
-Display
+DISPLAY
+===========================================================
+Ctrl+\            Side by side editing
+
+
+
+===========================================================
+SEARCH AND REPLACE
 ===========================================================
 
 
 
 ===========================================================
-Search and replace
-===========================================================
-
-
-
-===========================================================
-Editor management
+EDITOR MANAGEMENT
 ===========================================================
 
 
@@ -84,16 +99,16 @@ Editor management
 
 
 ===========================================================
-File management
+FILE MANAGEMENT
 ===========================================================
 
 
 ===========================================================
-Debug
+DEBUG
 ===========================================================
 
 
 ===========================================================
-Integrated terminal
+INTEGRATED TERMINAL
 ===========================================================
 
