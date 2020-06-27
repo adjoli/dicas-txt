@@ -17,6 +17,7 @@ git status
 =======================================================
 >> git status -s
 >> git status --short
+* Opera na staging area e working directory
 
 
 git add
@@ -28,11 +29,14 @@ git commit
 =======================================================
 >> git commit -m "Comentário a ser inserido"
 >> git commit -am "Comentário - Novo commit"
+
+Corrige o último commit (mensagem ou algum arquivo esquecido)
 >> git commit --amend
 
 
 git log
 =======================================================
+* Opera nos snapshots commitados
 >> git log
 >> git log -2  # mostra apenas os dois ultimos commits
 >> git log -p | --patch
@@ -44,10 +48,8 @@ git log
 >> git log --graph
 >> git log --since | --after | --until | --before
 >> git shortlog
->> git show <hash>
 >> git log --name-only
 >> git log --name-status
-
 
 git restore
 =======================================================
@@ -64,6 +66,7 @@ git diff
 
 git rm
 =======================================================
+Remove arquivos da working tree e do index
 >> git rm
 >> git rm -f
 >> git rm --cached <arquivo>
@@ -132,11 +135,35 @@ Passo 2) Retorna para o branch master e executa 'merge':
 git merge
 =======================================================
 
-
-
-merge
+git tag
 =======================================================
+Marca commits como importantes (release points)
+Podem ser de dois tipos:
+  * lightweight - Apenas um ponteiro para um commit
+  * annotated - Armazenadas como um objeto completo 
+>> git tag -a v1.0 -m "Versão estável 1.0"
 
+
+git show
+=======================================================
+>> git show <hash>
+>> git show <tag>
+
+
+
+
+
+git revert
+=======================================================
+Desfaz um commit específico, aplicando um outro commit.
+* Opera nos snapshots commitados.
+
+
+
+git clean
+=======================================================
+Remove arquivos untracked.
+>> git clean -f
 
 
 git remote
@@ -206,8 +233,17 @@ Obs.: Na movimentação, pode-se usar referências relativas:
 
 git reset
 =======================================================
+Opera em working directory e staging area.
 Ignora modificações de arquivos (após add, antes do commit) - retorna para 'unstage'
+
+
 >> git reset HEAD <arquivo>
+
+
+Muda todos os arquivos tracked para versão do commit mais recente.
+>> git reset --hard
+
+
 
 Retorna para 'unstaged'
 >> git reset HEAD --soft <hash-anterior>
