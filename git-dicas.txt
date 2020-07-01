@@ -211,10 +211,11 @@ Removendo um branch remoto:
 
 git stash
 =======================================================
-Guarda o que está na staging area em um 'local separado'
+Guarda o que está na staging area e no working directory em um 'local separado'
 >> git stash
->> git stash apply
 >> git stash list
+>> git stash pop
+>> git stash apply
 >> git stash clear
 
 
