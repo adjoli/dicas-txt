@@ -1,3 +1,21 @@
+INTERFACES
+==========
 Compass
 mongo shell
 Atlas
+
+
+DATABASES
+=========
+show dbs
+use <db>
+
+
+COLLECTIONS
+===========
+show collections
+
+
+FILTER
+======
+db.<db>.find().pretty()
