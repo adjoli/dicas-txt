@@ -1,3 +1,24 @@
+Em Extensions:
+@cathegory:themes
+
+Temas
+=====
+  Dracula
+  One Dark Pro
+
+IA
+==
+- TabNine
+- Visual Studio IntelliCode
+- 
+
+
+  Bracket Pair Colorizer 2
+  Code Spell Checker
+
+
+
+
 ===========================================================
 GENERAL
 ===========================================================
