@@ -1,0 +1,21 @@
+from pymongo import MongoClient()
+
+db = MongoClient()
+
+DATABASES
+---------
+db.database_names()
+usuarios = db['users']
+usuarios.collection_names()
+usuarios.list_collections()
+
+
+
+COLLECTIONS
+-----------
+colecao = usuarios['nome_colecao']
+
+
+DOCUMENTS
+---------
+doc = colecao.find_one()

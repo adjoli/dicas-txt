@@ -1,0 +1,69 @@
+INTERFACES
+==========
+Compass
+mongo shell
+Atlas
+
+
+DATABASES
+=========
+show dbs
+use <db>
+
+
+COLLECTIONS
+===========
+show collections
+
+
+FILTER
+======
+db.<db>.find({<parametros>}).pretty()
+
+.count()
+
+Busca por elemento no array
+---------------------------
+find({[key: value]}) - Array exato
+find({key: value})   - Array que contem o elemento
+find({key.0: value}) - Elemento aparece na primeira posicao
+
+Projecoes
+---------
+Restricao das colunas desejadas na filtragem
+
+find({<parametros>}, {colunas: <exibir>})
+find({'genres': 'Comedy'}, {title: 1, _id: 0})
+   Exibindo titulo, porem ocultando _id
+
+
+Update
+------
+db.movieDetails.updateOne(
+    {title: "The Martian"},
+    {
+    $set: {
+        poster: "http://ia.media-imdb.com/images/adsf0asdf87afd87asf987asfd987.jpg"
+    }
+})
+
+
+db.movieDetails.updateOne(
+    {title: "The Martian"},
+    {
+    $set: {
+        "awards": {
+            "wins": 8,
+            "nominations": 14,
+            "text": "Nominated for 3 Golden Globes. Another 8 wins & 14 nominations"
+        }
+    }
+});
+
+
+
+
+
+Operators
+---------
+$set
