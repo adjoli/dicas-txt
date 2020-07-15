@@ -1,0 +1,36 @@
+INSTALACAO
+==========
+pip install dataset
+import dataset
+
+BANCOS DE DADOS
+===============
+db = dataset.connect()
+
+
+
+TABELAS
+=======
+db.tables
+tabela = db[<nome_tabela>]
+
+len(tabela)
+
+
+COLUNAS (CAMPOS)
+================
+db[<nome_tabela>].columns  ou tabela.columns
+
+
+CRUD
+====
+tabela.insert()
+tabela.update()
+tabela.filter(key=value)
+
+
+
+FILTROS
+=======
+tabela.all()
+tabela.query()
