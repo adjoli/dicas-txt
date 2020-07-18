@@ -1,0 +1,71 @@
+Instalação do pipenv
+--------------------
+pip install pipenv
+
+
+Ativando um ambiente virtual
+----------------------------
+pipenv shell
+
+*Caso o AV não exista ainda, será criado
+*Caso haja um arquivo requirements.txt, este é usado como referência.
+
+
+
+Criando um AV (a partir de uma versão específica do Python)
+-----------------------------------------------------------
+pipenv install --python 3.6
+
+
+
+Instalando um pacote
+--------------------
+pipenv install flask
+
+
+
+Instalando uma versão específica de um pacote
+---------------------------------------------
+pipenv install flask==0.12.1
+
+
+
+Instalando um pacote (ambiente desenvolvimento)
+-----------------------------------------------
+pipenv install <pacote> --dev
+
+
+
+Desinstalando um pacote
+-----------------------
+pipenv uninstall flask
+
+Desistalando TODOS os pacotes
+pipenv uninstall --all
+pipenv uninstall --all-dev
+
+
+
+Mostra a árvore de dependências entre pacotes
+---------------------------------------------
+pipenv graph
+
+Listando primeiro as dependências (útil para resolver conflitos)
+pipenv graph --reverse
+
+
+
+Travar o ambiente virtual
+-------------------------
+pipenv lock
+
+Caso queira criar o AV definido em Pipfile.lock:
+pipenv install --ignore-pipfile
+
+*Este comando gera o arquivo Pipfile.lock
+
+
+
+Exibindo o path do ambiente virtual
+-----------------------------------
+pipenv --venv

@@ -1,10 +1,6 @@
 ATALHOS SUBLIME TEXT
 ====================
-Atualizado em:
-
-
-
-
+Atualizado em: 18-07-2020
 
 -----------------------------------------------------------
 EDIÇÃO DE LINHAS
@@ -29,11 +25,8 @@ APAGAR
 
 
 -----------------------------------------------------------
-Packate: InsertDate
+Package: InsertDate
 -----------------------------------------------------------
 	F5        => menu (diversos formatos de data/hora)
 	alt+F5    => prompt (formato personalizado)
     ctrl+shift+F5 => Inserir data (formato YYYY-MM-DD)
-
-
-
