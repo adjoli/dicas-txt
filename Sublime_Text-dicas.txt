@@ -3,9 +3,15 @@ ATALHOS SUBLIME TEXT
 Atualizado em: 18-07-2020
 
 -----------------------------------------------------------
+EDITOR
+-----------------------------------------------------------
+    Alternar sidebar      => ctrl + \
+
+
+-----------------------------------------------------------
 EDIÇÃO DE LINHAS
 -----------------------------------------------------------
-	Duplicar linha        => ctrl + shift + d
+    Duplicar linha        => ctrl + shift + d
 	Juntar linhas         => ctrl + j
 	Inserir linha antes   => ctrl + shift + enter
 	Inserir linha depois  => ctrl + enter
