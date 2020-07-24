@@ -80,6 +80,12 @@ Listar todos o branchs:
 Listar todos o branchs, _exibindo o último 'commit'_:
 >> git branch -v
 
+Listar todos o branchs (locais e remotos):
+>> git branch -a
+
+Listar todos o branchs remotos:
+>> git branch -r
+
 Listar todos o branchs já "mergeados" com o atual:
 >> git branch --merged
 
@@ -92,8 +98,6 @@ Remover um branch que já foi "mergeado":
 Remover um branch que ainda NÃO foi "mergeado":
 >> git branch -D <nome_branch>
 
-Listar todos o branchs remotos:
->> git branch -r
 
 Força um ramo a apontar para um determinado commit:
 >> git branch -f <ramo> <commit>
@@ -140,7 +144,7 @@ git tag
 Marca commits como importantes (release points)
 Podem ser de dois tipos:
   * lightweight - Apenas um ponteiro para um commit
-  * annotated - Armazenadas como um objeto completo 
+  * annotated - Armazenadas como um objeto completo
 >> git tag -a v1.0 -m "Versão estável 1.0"
 
 
@@ -207,6 +211,8 @@ Envia dados para um repositório remoto:
 
 Removendo um branch remoto:
 >> git push origin --delete <branch>
+
+*usar o flag -u para forçar o push
 
 
 git stash
