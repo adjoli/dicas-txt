@@ -10,7 +10,7 @@ IA
 ==
 - TabNine
 - Visual Studio IntelliCode
-- 
+-
 
 
   Bracket Pair Colorizer 2
@@ -34,6 +34,9 @@ Ctrl+B            Toggle sidebar
 ===========================================================
 BASIC EDITING
 ===========================================================
+Alt+Up/Down       Move line up/Downm
+Alt+Super+Up      Duplicate line above
+Alt+Super+Down    Duplicate line below
 Ctrl+X            Cut line (empty selection)
 Ctrl+C            Copy line (empty selection)
 Ctrl+Shift+K      Delete line
@@ -43,7 +46,6 @@ Ctrl+Shift+\      Jump to matching bracket
 Ctrl+]            Indent/outdent line
 Home/End          Go to beginning/end of line
 Ctrl+Home/End     Go to beginning/end of file
-Alt+Up/Down       Move line up/Downm
 Ctrl+Up/Down      Scroll line up/down
 Alt+PgUp/PgDn     Scroll page up/down
 Ctrl+Shift+[/]    Fold/unfold region

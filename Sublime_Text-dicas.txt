@@ -1,16 +1,12 @@
 ATALHOS SUBLIME TEXT
 ====================
-Atualizado em: 18-07-2020
+Atualizado em: 31-julho-2020
 
 -----------------------------------------------------------
 EDITOR
------------------------------------------------------------
-    Alternar sidebar      => ctrl + \
-
-
------------------------------------------------------------
+    Alternar sidebar (Linux)    => ctrl + \
+    Alternar sidebar (Windows)  => ctrl + k, ctrl + b
 EDIÇÃO DE LINHAS
------------------------------------------------------------
     Duplicar linha        => ctrl + shift + d
 	Juntar linhas         => ctrl + j
 	Inserir linha antes   => ctrl + shift + enter
@@ -18,21 +14,13 @@ EDIÇÃO DE LINHAS
 	Mover linha para cima => ctrl + shift + up
 	Mover linha para cima => ctrl + shift + down
 	Ordenar linhas        => F9
-
-
------------------------------------------------------------
 APAGAR
------------------------------------------------------------
 	Apagar linha                 => ctrl + shift + k
 	Apagar até o início da linha => ctrl + k, ctrl + backspace
 	Apagar o fim da linha        => ctrl + k, ctrl + k
 	Apagar palavra anterior      => ctrl + delete
 	Apagar palavra seguinte      => ctrl + backspace
-
-
------------------------------------------------------------
 Package: InsertDate
------------------------------------------------------------
 	F5        => menu (diversos formatos de data/hora)
 	alt+F5    => prompt (formato personalizado)
     ctrl+shift+F5 => Inserir data (formato YYYY-MM-DD)

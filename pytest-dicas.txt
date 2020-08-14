@@ -1,0 +1,5 @@
+
+
+Exibir fixtures
+---------------
+pytest --fixtures <nome_arquivo>

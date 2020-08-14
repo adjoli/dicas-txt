@@ -173,7 +173,7 @@ Remove arquivos untracked.
 git remote
 =======================================================
 Adicionar um repositório remoto:
->> git remote add <nome> <url>
+>> git remote add <apelido> <url>
 
 ==> O nome padrão de um repositório remoto é 'origin'.
 
