@@ -1,0 +1,50 @@
+
+
+
+=======================================
+HELP
+=======================================
+
+
+ctrl+e      Abrir barra de comandos
+ctrl+q    Quit
+ctrl+s    Save
+
+=======================================
+EDIÇÃO DE LINHAS
+=======================================
+ctrl+d     Duplicar linha
+ctrl+k     Recortar linha
+ctrl+a     Selecionar tudo
+
+
+
+=======================================
+JANELAS (SPLITS)
+=======================================
+> vsplit <arquivo>
+> hsplit <arquivo>
+ctrl+w     Mover entre splits
+
+
+
+=======================================
+HELP
+=======================================
+> help commands
+> help colors
+> help comments
+> help copypaste
+> help defaultkeys
+> help keybindings
+> help tutorial
+> help plugins
+
+=======================================
+CONFIURAÇÕES
+=======================================
+> set colorscheme
+
+
+
+
