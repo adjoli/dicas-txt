@@ -1,49 +1,99 @@
 
-
-
-=======================================
-HELP
-=======================================
-
-
-ctrl+e      Abrir barra de comandos
+=====================================================================
+COMANDOS GERAIS
+=====================================================================
+ctrl+e    Abrir barra de comandos
 ctrl+q    Quit
 ctrl+s    Save
-
-=======================================
-EDIÇÃO DE LINHAS
-=======================================
-ctrl+d     Duplicar linha
-ctrl+k     Recortar linha
-ctrl+a     Selecionar tudo
+ctrl+o    Abrir arquivo
+ctrl+b    Executa um shell command
+ctrl+r    Alternar exibição Nº linha
 
 
 
-=======================================
+=====================================================================
+NAVEGAÇÃO
+=====================================================================
+alt+shift+{}    Move o cursor para próxima linha vazia
+ctrl+l          Ir para linha
+
+
+=====================================================================
+EDIÇÃO DE TEXTO E LINHAS
+=====================================================================
+ctrl+d               Duplicar linha
+ctrl+k               Recortar linha
+ctrl+a               Selecionar tudo
+alt+super+<up/down>  Mover linha
+alt+backspace        Apaga palavra à esquerda
+ctrl+h               Backspace (compatibilidade)
+
+
+=====================================================================
+MÚLTIPLOS CURSORES
+=====================================================================
+alt+n                Cria/acrescenta um cursor na palavra atual
+alt+shift+<up/down>  Cria um cursor na linha acima/abaixo
+alt+n                Remove o último cursor múltiplo
+alt+c                Cancela os cursores múltiplos
+ctrl+<left click>    Acrescenta um cursor múltiplo
+
+
+
+=====================================================================
 JANELAS (SPLITS)
-=======================================
+=====================================================================
 > vsplit <arquivo>
 > hsplit <arquivo>
 ctrl+w     Mover entre splits
 
 
+=====================================================================
+ABAS (TABS)
+=====================================================================
+ctrl+t      Cria uma nova aba
+alt+,       Alterna para a aba anterior
+alt+.       Alterna para a próxima aba
 
-=======================================
+
+=====================================================================
+BUSCA (FIND)
+=====================================================================
+ctrl+f      Abre prompt de busca
+ctrl+n      Encontra a próxima ocorrência da busca atual
+ctrl+p      Encontra a ocorrência anterior da busca atual
+
+
+=====================================================================
+MACROS (???)
+=====================================================================
+ctrl+u      Toggle gravação de macros
+ctrl+j      Executa a última macro gravada
+
+
+
+=====================================================================
 HELP
-=======================================
+=====================================================================
 > help commands
 > help colors
-> help comments
+> help commands
+> help options
 > help copypaste
 > help defaultkeys
 > help keybindings
 > help tutorial
 > help plugins
 
-=======================================
+=====================================================================
 CONFIURAÇÕES
-=======================================
+=====================================================================
 > set colorscheme
+
+
+
+
+
 
 
 
