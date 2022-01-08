@@ -25,13 +25,13 @@
  remove o pacote junto com as dependências não usadas por outros pacotes e junto com os arquivos de configuração.
  >>> sudo pacman -Rsn pacote 
 
- procura por um pacote.
+ procura por um pacote (repositórios).
  >>> sudo pacman -Ss pacote 
 
  apenas baixa o pacote e não o instala.
  >>> sudo pacman -Sw pacote 
 
- mostra informações de um pacote não instalado.
+ mostra informações de um pacote (repositórios).
  >>> sudo pacman -Si pacote 
 
  mostra informações do pacote já instalado.
@@ -76,13 +76,13 @@
  elimina um pacote ignorando as dependências.
  >>> sudo pacman -Rdd 
 
- para gerenciar pacman.cof
+ para gerenciar pacman.conf
  >>> sudo pacman-mirrors.conf 
 
  para gerar um novo mirrorlist
  >>> sudo pacman-mirrors -g 
 
- instalar pacotes baixados no pc
+ instalar pacotes baixados no PC
  >>> sudo pacman -U home/user/arquivo.tar.xz 
 
  instalar pacotes baixados via download
