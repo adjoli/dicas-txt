@@ -1,15 +1,29 @@
 Action                   Options                    Default Shortcut
 ======================   ========================   ================
-New instance                                        Super+I
-New window                                          Shift+Ctrl+I
 New Tab                                             Shift+Ctrl+T
+Switch Tab               Previous, Next             Ctrl + PgUp/PgDn                          
+Move Tab                 Left, Right                Shift+Ctrl+PgUp/PgDn
+
+
+Move focus               Up, Down, Left, Right      Alt + <Arrow>
+
+
 Split terminal           Horizontally, Vertically   Shift+Ctrl+O/E
-Hide window [3]                                     Shift+Ctrl+Alt+A
-Close window                                        Shift+Ctrl+Q
-Close terminal                                      Shift+Ctrl+W
-Toggle fullscreen                                   F11
+Cycle to terminal        Previous, Next             (Shift+)Ctrl + Tab
+Page terminal            Up, Down                   Shift + PgUp/PgDn
 Resize terminal          Up, Down, Left, Right      Shift+Ctrl+<Arrow>
 Rotate terminals         (Anti-)Clockwise           (Shift+)Super+R
-Move Tab                 Left, Right                Shift+Ctrl+PgUp/PgDn
 Zoom terminal                                       Shift+Ctrl+Z
 Maximise terminal                                   Shift+Ctrl+X
+Close terminal                                      Shift+Ctrl+W
+
+
+New window                                          Shift+Ctrl+I
+Hide window [3]                                     Shift+Ctrl+Alt+A
+Close window                                        Shift+Ctrl+Q
+
+
+New instance (new PID)                              Super+I
+
+
+Toggle fullscreen                                   F11
