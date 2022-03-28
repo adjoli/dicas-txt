@@ -13,11 +13,18 @@ git init
 =======================================================
 Inicia um repositório em branco.
 
+
 git status
 =======================================================
->> git status -s
->> git status --short
 * Opera na staging area e working directory
+>> git status -s | --short
+
+* Colunas no status de saída curto
+  - Coluna esquerda: status da staging area
+  - Coluna direita: status no workdir
+  M indica arquivos modificados
+  A indica arquivos adicionados
+  ? indica arquivos não rastreados 
 
 
 git add
@@ -156,9 +163,6 @@ git show
 >> git show <tag>
 
 
-
-
-
 git revert
 =======================================================
 Desfaz um commit específico, aplicando um outro commit.
@@ -192,7 +196,7 @@ Remover um repositório remoto:
 >> git remote remove <nome>
 
 
-git fetch / git pull
+git fetch
 =======================================================
 ==> Observação: 'git fetch' apenas faz o download das atualizações.
     Não é feita nenhuma modificação (_merge_) entre os dados locais e
@@ -202,7 +206,12 @@ Busca do repositório remoto toda informação que foi adicionada após
 execução de um 'git clone' ou 'git fetch':
 >> git fetch origin
 
-Executa automaticamente 'fetch' e 'merge' de um branch remoto com o branch local:
+
+
+git pull
+=======================================================
+Executa automaticamente 'fetch' e 'merge' de um branch remoto 
+com o branch local:
 >> git pull <nome> [branch]
 
 
