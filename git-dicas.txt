@@ -11,7 +11,7 @@ git config
 
 git init
 =======================================================
-
+Inicia um repositório em branco.
 
 git status
 =======================================================
@@ -28,7 +28,7 @@ git add
 git commit
 =======================================================
 >> git commit -m "Comentário a ser inserido"
->> git commit -am "Comentário - Novo commit"
+>> git commit -am "Comentário - Novo commit + add juntos"
 
 Corrige o último commit (mensagem ou algum arquivo esquecido)
 >> git commit --amend
@@ -50,6 +50,7 @@ git log
 >> git shortlog
 >> git log --name-only
 >> git log --name-status
+
 
 git restore
 =======================================================
@@ -138,6 +139,7 @@ Passo 2) Retorna para o branch master e executa 'merge':
 
 git merge
 =======================================================
+
 
 git tag
 =======================================================
