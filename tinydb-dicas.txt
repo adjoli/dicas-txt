@@ -1,0 +1,55 @@
+RESUMO - TinyDB
+===============
+
+from tinydb import TinyDB, Query, where
+
+db = TinyDB('arquivo.json')
+User = Query()
+
+# Dados de exemplo são dicionários com as chaves 'nome' e 'idade'
+
+CRUD
+----
+
+db.insert({chave: valor, ...})
+db.insert_all([{chave: valor}, ...])
+
+
+db.update(fields, query)
+
+
+db.all()
+
+
+db.search(Query().field > 40)
+db.search(Query()['field'] > 40)
+db.search(where('field') > 40)
+db.search(Query().field.exists())
+db.search(Query().field.matches())
+db.search(Query().field.search())
+db.search(Query().field.test())
+db.search(Query().field.any())
+db.search(Query().field.all())
+db.search(Query().field.one_of())
+db.search(Query().field.fragment(dict))
+
+
+db.upsert()
+
+
+~   &   |
+
+
+db.remove(query)
+db.remove(doc_id=[num])
+db.remove(doc_ids=[...])
+
+
+db.truncate()
+db.drop_table('tabela')
+db.drop_tables()
+
+
+len(db)
+db.count(query)
+db.contains(query)
