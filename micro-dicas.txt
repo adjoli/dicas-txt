@@ -1,20 +1,35 @@
-
 =====================================================================
 COMANDOS GERAIS
 =====================================================================
-ctrl+e    Abrir barra de comandos
-ctrl+q    Quit
-ctrl+s    Save
-ctrl+o    Abrir arquivo
 ctrl+b    Executa um shell command
-ctrl+r    Alternar exibição Nº linha
+ctrl+e    Abrir barra de comandos
+ctrl+g    Abrir ajuda
+ctrl+o    Abrir arquivo
+ctrl+q    Quit
+ctrl+r    Alternar exibição da régua de  Nº linha
+ctrl+s    Save
+ctrl+y    Refazer
+ctrl+z    Desfazer
 
+
+=====================================================================
+TECLAS DE FUNÇÃO
+=====================================================================
+F1              Open help
+F2              Save
+F3              Find
+F4              Quit
+F7              Find
+F10	            Quit
 
 
 =====================================================================
 NAVEGAÇÃO
 =====================================================================
 alt+shift+{}    Move o cursor para próxima linha vazia
+alt+left/right  Move o cursor para o início/fim da linha
+ctrl+left/right Move o curso uma palavra à esquerda/direita
+ctrl+home/end   Move o curso para o início/fim do documento
 ctrl+l          Ir para linha
 
 
@@ -25,7 +40,9 @@ ctrl+d               Duplicar linha
 ctrl+k               Recortar linha
 ctrl+a               Selecionar tudo
 alt+super+<up/down>  Mover linha
+alt+shitf+left/right Seleciona até o início/fim da linha (a partir do cursos)
 alt+backspace        Apaga palavra à esquerda
+shift+home/end       Seleciona até o início/fim do arquivo (a partir do cursor)
 ctrl+h               Backspace (compatibilidade)
 
 
@@ -34,8 +51,9 @@ MÚLTIPLOS CURSORES
 =====================================================================
 alt+n                Cria/acrescenta um cursor na palavra atual
 alt+shift+<up/down>  Cria um cursor na linha acima/abaixo
-alt+n                Remove o último cursor múltiplo
+alt+p                Remove o último cursor múltiplo
 alt+c                Cancela os cursores múltiplos
+alt+m                Cria um cursor no início de cada linha selecionada
 ctrl+<left click>    Acrescenta um cursor múltiplo
 
 
@@ -71,7 +89,6 @@ ctrl+u      Toggle gravação de macros
 ctrl+j      Executa a última macro gravada
 
 
-
 =====================================================================
 HELP
 =====================================================================
@@ -85,16 +102,8 @@ HELP
 > help tutorial
 > help plugins
 
+
 =====================================================================
 CONFIURAÇÕES
 =====================================================================
 > set colorscheme
-
-
-
-
-
-
-
-
-
